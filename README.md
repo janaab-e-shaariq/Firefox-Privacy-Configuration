@@ -9,22 +9,30 @@ This is based on a **reviewed subset** of preferences extracted from a Firefox p
 1. Install Firefox desktop. Open `about:profiles`, **Create a New Profile**, launch it once, then close Firefox completely.
 2. Click **Open Directory** beside that profile's **Root Directory** and copy its absolute directory path.
 3. Download this repository and open a terminal in its root folder.
-4. Run the installer with your real directory path:
+4. **No Python needed:** use the native installer for your operating system. Replace the example profile path with the exact **Root Directory** shown in `about:profiles`.
+
+**Windows PowerShell:**
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -ProfileDir "$env:APPDATA\Mozilla\Firefox\Profiles\XXXXXXXX.Privacy" -Launch
+```
+Only run scripts after reviewing them. The execution-policy flag applies to this invocation; it does not change your machine's persistent policy.
 
 **Linux:**
 ```bash
-python3 scripts/install.py --profile-dir "$HOME/.mozilla/firefox/XXXXXXXX.Privacy" --firefox firefox --launch
+bash scripts/install.sh --profile-dir "$HOME/.mozilla/firefox/XXXXXXXX.Privacy" --launch
 ```
 
-**Windows PowerShell** (modify both paths):
-```powershell
-py scripts/install.py --profile-dir "$env:APPDATA\Mozilla\Firefox\Profiles\XXXXXXXX.Privacy" --firefox "C:\Program Files\Mozilla Firefox\firefox.exe" --launch
-```
-
-**macOS** (change path if necessary):
+**macOS:**
 ```bash
-python3 scripts/install.py --profile-dir "$HOME/Library/Application Support/Firefox/Profiles/XXXXXXXX.Privacy" --firefox /Applications/Firefox.app/Contents/MacOS/firefox --launch
+bash scripts/install.sh --profile-dir "$HOME/Library/Application Support/Firefox/Profiles/XXXXXXXX.Privacy" --launch
 ```
+
+**Optional Python alternative:**
+```bash
+python3 scripts/install.py --profile-dir "/exact/path/from/about:profiles" --launch
+```
+
+**Manual method (no scripts required):** copy `config/user.js` to the selected, closed Firefox profile's Root Directory; then launch that profile and open `extensions/install.html` to install add-ons.
 
 The script backs up any existing `user.js`, copies the reviewed config, and opens `extensions/install.html` in the target Firefox profile (with `--launch`). **Click each official Mozilla Add-ons link to request an install; Firefox asks for your approval.** This is deliberately not silent or system-wide.
 

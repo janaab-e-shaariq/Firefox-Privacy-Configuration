@@ -3,7 +3,7 @@
 1. Install a recent stable Firefox desktop build.
 2. Create a **new** profile via `about:profiles` and launch it once.
 3. Close Firefox before copying `user.js`.
-4. Run `scripts/install.py --profile-dir <EXACT_ROOT_DIRECTORY> --firefox <FIREFOX_EXECUTABLE> --launch`, or copy `config/user.js` manually.
+4. Run the no-Python installer (`scripts/install.ps1` on Windows, `scripts/install.sh` on Linux/macOS), use the optional `install.py`, or copy `config/user.js` manually. All scripts require an explicit profile Root Directory, back up existing `user.js`, and ask before modifying it. See README commands.
 5. Firefox opens the local HTML add-on page. For each desired add-on, follow its AMO download link, verify source and permissions, and approve installation. If an old version is missing, search the Mozilla Add-ons directory for a currently maintained release.
 6. Open `about:addons` and verify your choices.
 7. Open `about:config` to verify relevant settings.
