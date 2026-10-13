@@ -1,0 +1,89 @@
+{
+  "description": "Third-party add-ons found in uploaded profile. Official AMO direct XPI links are version-pinned and may become unavailable. User approval required.",
+  "addons": [
+    {
+      "name": "Tab Unloader",
+      "id": "tab-unloader-we@afnankhan",
+      "version": "2020.1.2",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/3497629/tab_unloader_we-2020.1.2.xpi"
+    },
+    {
+      "name": "Profile Indicator",
+      "id": "{86cad788-c037-483a-9abc-ca36b2c0bf73}",
+      "version": "1.1",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/3454872/profile_indicator-1.1.xpi"
+    },
+    {
+      "name": "Song id",
+      "id": "song-id@losnappas",
+      "version": "3.5",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/3945877/song_identifier-3.5.xpi"
+    },
+    {
+      "name": "Facebook Container",
+      "id": "@contain-facebook",
+      "version": "2.3.12",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/4451874/facebook_container-2.3.12.xpi"
+    },
+    {
+      "name": "YouTube NonStop",
+      "id": "{0d7cafdd-501c-49ca-8ebb-e3341caaa55e}",
+      "version": "0.9.2",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/4187690/youtube_nonstop-0.9.2.xpi"
+    },
+    {
+      "name": "Cookie AutoDelete",
+      "id": "CookieAutoDelete@kennydo.com",
+      "version": "3.8.2",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/4040738/cookie_autodelete-3.8.2.xpi"
+    },
+    {
+      "name": "Motrix WebExtension",
+      "id": "{9ce99d37-4a5e-409a-a04b-0f3f50491bc7}",
+      "version": "26.9.9",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/5016710/motrixwebextension-26.9.9.xpi"
+    },
+    {
+      "name": "Firefox Multi-Account Containers",
+      "id": "@testpilot-containers",
+      "version": "8.3.8",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/4867303/multi_account_containers-8.3.8.xpi"
+    },
+    {
+      "name": "Better Lyrics (Lyrics for YouTube Music)",
+      "id": "betterlyrics@boidu.dev",
+      "version": "2.4.1",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/5060914/better_lyrics-2.4.1.xpi"
+    },
+    {
+      "name": "SponsorBlock for YouTube - Skip Sponsorships",
+      "id": "sponsorBlocker@ajay.app",
+      "version": "6.1.7",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/4897574/sponsorblock-6.1.7.xpi"
+    },
+    {
+      "name": "Privacy Badger",
+      "id": "jid1-MnnxcxisBPnSXQ@jetpack",
+      "version": "2026.9.15",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/5032646/privacy_badger17-2026.9.15.xpi"
+    },
+    {
+      "name": "uBlock Origin",
+      "id": "uBlock0@raymondhill.net",
+      "version": "1.75.0",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/5034826/ublock_origin-1.75.0.xpi"
+    },
+    {
+      "name": "UnloadTabs",
+      "id": "@unload-tabs",
+      "version": "0.8.5",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/3397611/unload_tabs-0.8.5.xpi"
+    },
+    {
+      "name": "Video Control for Instagram",
+      "id": "{a831defa-a6c9-4ca9-9593-9ccaf98462d9}",
+      "version": "1.9.3",
+      "xpi_url": "https://addons.mozilla.org/firefox/downloads/file/5003924/instagram_video_control-1.9.3.xpi"
+    }
+  ]
+}
